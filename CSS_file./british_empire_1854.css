@@ -1,0 +1,293 @@
+body{
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+    outline: 0; 
+}
+
+html { 
+  background: url(images/map_background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#nav_wrapper{
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+    outline: 0;
+}
+
+.mapdiv{
+    width:100%;
+    height: auto;
+}
+
+.currentMap{
+    width:40.17%;
+    height:29.51vw;
+    /*height:61.0389vw;*/
+    margin-left:29.915%
+}
+
+#nav_div{
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 2vw;
+    background-color: rgba(227, 228, 232,0.7);
+}
+
+.nav_bar_text{
+    font-size: 1.8vw;
+    padding: 3.5vw;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+#nav_wrapper{
+    text-align: center;
+    padding-top: 0.5vw;
+    padding-bottom: 1vw;
+}
+
+#map_header_text{
+    text-align: center;
+    font-size: 3vw;
+    font-family: 'Jockey One', sans-serif;
+    text-align: center;
+    color: #36393d;
+}
+
+#map_header{
+    text-align: center;
+    padding-bottom: 1vw;
+}
+
+#slider{
+    margin-left: 30%;
+    width: 40%;
+    height: 1vw;
+    margin-top: 2vw;
+}
+
+#slider_text{
+    text-align: center;
+    font-size: 3.5vw;
+    z-index: 1;
+    position: absolute;
+    margin-top: 20.2vw;
+    color: white;
+    text-shadow:
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#England :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#Scotland :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#Wales :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#Northern_Ireland :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#Ireland :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#Canada :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#USA :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#The_Bahamas :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#Turks_And_Caicos_Islands :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#Jamaica :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#The_British_Virgin_Islands :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#Anguila :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#St_Kitts_And_Nevis :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#Monserrat :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#Antigua_And_Barbuda :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#Dominica :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#St_Lucia :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#St_Vincent_And_The_Grenadines :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#Barbados :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#Grenada :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#Trinidad_And_Tobago :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#Guyana :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#Belize :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#Falklands :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#South_Georgia_And_The_South_Sandwich_Islands :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#South_Africa :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#Lesotho :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#Ghana :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#Sierra_Leone :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#The_Gambia :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#India :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#Bangladesh :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#Myanmar :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#Malaysia :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#Singapore :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#Australia :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#New_Zealand :hover{
+	/*fill:#0c4f88*/
+	fill:#f83838
+}
+
+#Antarctica :hover{
+	/*fill:#b7b7b7*/
+	fill:#f83838
+}
+
+#Europe_Asia_And_Africa :hover{
+	/*fill:#cdcdcd*/
+	fill:#f83838
+}
+
+#North_And_South_America :hover{
+	/*fill:#cdcdcd*/
+	fill:#f83838
+}

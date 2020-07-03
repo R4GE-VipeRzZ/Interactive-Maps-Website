@@ -1,0 +1,234 @@
+body{
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+    outline: 0; 
+}
+
+#nav_wrapper{
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+    outline: 0;
+}
+
+html { 
+  background: url(images/map_background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+table{
+	border-spacing:0;
+	border-collapse: collapse;
+}
+
+.generalTableStyle{
+	float: left;
+	margin-top: 2vw;
+	margin-bottom: 1vw;
+	margin-left: 1vw;
+	margin-right: 1vw;
+}
+
+#table1{
+	margin-left: 6.265vw;
+}
+
+td, th {
+  border: 0.1vw solid #000000;
+  text-align: center;
+  padding: 0.6vw;
+  margin: 0;
+  font-size: 1.25vw;
+  white-space:pre;
+  background-color: #f7f7f7;
+}
+
+#europeTable{
+	background-color: #dddddd;
+}
+
+#asiaTable{
+	background-color: #dddddd;
+}
+
+#africaTable{
+	background-color: #dddddd;
+}
+
+#northAmericaTable{
+	background-color: #dddddd;
+}
+
+#southAmericaTable{
+	background-color: #dddddd;
+}
+
+#oceaniaTable{
+	background-color: #dddddd;
+}
+
+.mapdiv{
+    width:100%;
+    height: auto;
+}
+
+.currentMap{
+    width:40.17%;
+    height:29.51vw;
+    /*height:61.0389vw;*/
+    margin-left:29.915%
+}
+
+#nav_div{
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 2vw;
+    background-color: rgba(227, 228, 232,0.7);
+}
+
+.nav_bar_text{
+    font-size: 1.8vw;
+    padding: 3.5vw;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+#nav_wrapper{
+    text-align: center;
+    padding-top: 0.5vw;
+    padding-bottom: 1vw;
+}
+
+#input_text{
+	margin-left: 25vw;
+	font-size: 2vw;
+}
+
+#country_input{
+	margin-top: 1vw;
+	margin-left: 25vw;	
+}
+
+#country_input_box{
+	height: 2vw;
+	width: 21vw;
+}
+
+#country_submit_btn{
+	margin-left: 1vw;
+	width: 7vw;
+	height: 2.35vw;
+	font-size: 1.2vw;
+	padding: 0;
+}
+
+#country_give_up_btn{
+	margin-left: 11.75vw;
+	width: 7vw;
+	height: 2.35vw;
+	font-size: 1.2vw;
+	padding: 0;
+}
+
+#country_start_btn{
+	width: 12vw;
+	height: 4vw;
+	font-size: 3vw;
+	position: absolute;
+
+	top: 0;
+	left: 0;
+
+	margin-left: 43.75vw;
+	margin-top: 36.75vw;
+	background-color: #51c973;
+}
+
+#country_correct_text{
+	margin-top: 1vw;
+	margin-left: 78.25vw;
+	position: absolute;
+	font-size: 2vw;
+	font-family: Arial, Helvetica;
+}
+
+#country_time_text{
+	margin-top: 10vw;
+	margin-left: 83.25vw;
+	position: absolute;
+	font-size: 2vw;
+	font-family: Arial, Helvetica;
+}
+
+#country_count{
+	margin-top: 3.5vw;
+	margin-left: 83.25vw;
+	position: absolute;
+	font-size: 2vw;
+	font-family: Arial, Helvetica;
+}
+
+#timer_text{
+	margin-top: 12.5vw;
+	margin-left: 81.75vw;
+	font-size: 2vw;
+	position: absolute;
+	font-family: Arial, Helvetica;
+}
+
+#mode_text{
+	margin-top: 1vw;
+	margin-left: 8.25vw;
+	position: absolute;
+	font-size: 2vw;
+	font-family: Arial, Helvetica;
+}
+
+#modeDropDown{
+	margin-top: 4vw;
+	margin-left: 7.05vw;
+
+	width: 8vw;
+    height: 2.5vw;
+    font-size: 1.2vw;
+    position: absolute;
+    font-family: Arial, Helvetica;
+}
+
+#countries_correct_high_score{
+	margin-top: 10vw;
+	margin-left: 4vw;
+	position: absolute;
+	font-size: 2vw;
+	font-family: Arial, Helvetica;
+}
+
+#high_score{
+	margin-top: 16vw;
+	margin-left: 10.25vw;
+	position: absolute;
+	font-size: 2vw;
+	font-family: Arial, Helvetica;
+}
+
+#fastest_time_score{
+	margin-top: 20vw;
+	margin-left: 0.75vw;
+	position: absolute;
+	font-size: 2vw;
+	font-family: Arial, Helvetica;
+}
+
+#time_score{
+	margin-top: 23.75vw;
+	margin-left: 7.15vw;
+	position: absolute;
+	font-size: 2vw;
+	font-family: Arial, Helvetica;
+}

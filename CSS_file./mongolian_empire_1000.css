@@ -1,0 +1,1114 @@
+body{
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+    outline: 0; 
+}
+
+html { 
+  background: url(images/map_background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#nav_wrapper{
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+    outline: 0;
+}
+
+.mapdiv{
+    width:100%;
+    height: auto;
+}
+
+.currentMap{
+    width:97.207%;
+    height:71.4142vw;
+    /*height:61.0389vw;*/
+    margin-left:1.3965%
+}
+
+#nav_div{
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 2vw;
+    background-color: rgba(227, 228, 232,0.7);
+}
+
+.nav_bar_text{
+    font-size: 1.8vw;
+    padding: 3.5vw;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+#nav_wrapper{
+    text-align: center;
+    padding-top: 0.5vw;
+    padding-bottom: 1vw;
+}
+
+#map_header_text{
+    text-align: center;
+    font-size: 6vw;
+    font-family: 'Jockey One', sans-serif;
+    text-align: center;
+    color: #36393d;
+}
+
+#map_header{
+    text-align: center;
+    padding-bottom: 1vw;
+}
+
+#slider{
+    margin-left: 30%;
+    width: 40%;
+    height: 1vw;
+    margin-top: 12vw;
+}
+
+#slider_text{
+    text-align: center;
+    font-size: 3.5vw;
+    z-index: 1;
+    margin-top: 14vw;
+    position: absolute;
+
+    color: white;
+    text-shadow:
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#scotland :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#england :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#wales :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#northern_ireland :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#ireland :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#france :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#monaco :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#andorra :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#portugal :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#spain :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#belgium :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#netherlands :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#germany :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#luxembourg :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#denmark :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#poland :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#czech_republic :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#austria :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#liechtenstein :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#switzerland :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#italy :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#san_marino :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#vatican_city :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#slovakia :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#hungary :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#slovenia :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#croatia :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#bosnia_and_herzegovina :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#montenegro :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#albania :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#greece :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#north_macedonia :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#kosovo :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#serbia :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#bulgaria :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#romania :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#moldova :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#ukraine :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#belarus :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#lithuania :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#latvia :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#estonia :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#russia :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#finland :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#sweden :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#norway :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#turkey :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#syria :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#lebanon :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#israel :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#jordan :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#iraq :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#kuwait :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#saudi_arabia :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#yemen :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#oman :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#uae :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#qatar :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#bahrain :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#iran :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#azerbaijan :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#armenia :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#georgia :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#pakistan :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#afghanistan :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#turkmenistan :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#tajikistan :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#uzbekistan :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#kyrgystan :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#kazakhstan :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#sri_lanka :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#india :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#bangladesh :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#bhutan :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#nepal :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#china :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#mongolia :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#myanmar :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#thailand :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#laos :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#vietnam :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#cambodia :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#malaysia :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#singapore :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#brunei :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#indonesia :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#east_timor :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#philippines :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#palau :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#taiwan :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#japan :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#south_korea :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#north_korea :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#papua_new_guinea :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#solomon_islands :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#vanuatu :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#new_caledonia :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#fiji :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#tonga :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#samoa :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#american_samoa :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#tuvalu :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#kiribati :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#nauru :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#marshall_islands :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#federated_states_of_micronesia :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#new_zealand :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#australia :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#cyprus :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#malta :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#morocco :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#mauritania :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#algeria :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#tunisia :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#libya :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#egypt :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#sudan :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#eritrea :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#djibouti :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#somalia :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#ethiopia :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#south_sudan :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#central_african_republic :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#cameroon :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#chad :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#niger :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#nigeria :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#mali :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#benin :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#togo :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#ghana :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#burkina_faso :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#cote_divoire :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#liberia :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#guinea :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#sierra_leone :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#guinea_bissau :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#senegal :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#the_gambia :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#cape_verde :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#equatorial_guinea :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#sao_tome_and_principe :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#gabon :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#republic_of_the_congo :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#angola :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#democratic_republic_of_the_congo :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#uganda :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#rwanada :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#burundi :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#tanzania :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#kenya :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#zambia :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#malawi :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#mozambique :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#zimbabwe :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#botswana :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#namibia :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#south_africa :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#eswatini :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#lesotho :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#comoros :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#madagascar :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#mauritius :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#seychelles :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#maldives :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#iceland :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#canada :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#usa :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#mexico :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#the_bahamas :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#turks_and_caicos_islands :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#cuba :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#jamaica :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#haiti :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#dominican_republic :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#the_british_virign_islands :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#anguila :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#st_kitts_and_nevis :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#montserrat :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#antigua_and_barbuda :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#dominica :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#st_lucia :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#st_vincent_and_the_genadines :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#grenada :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#barbados :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#trinidad_and_tobago :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#belize :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#guatemala :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#honduras :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#el_salvador :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#nicaragua :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#cost_rica :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#panama :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#colombia :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#venezuela :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#ecuador :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#peru :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#guyana :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#suriname :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#brazil :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#bolivia :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#chile :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#paraguay :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
+
+#argentina :hover{
+    /*fill:#0c4f88;*/
+    fill:#24d47f;
+}
